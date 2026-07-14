@@ -1,23 +1,80 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Firmware
+.pio/
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
+.clang_complete
+.gcc-flags.json
+.vscode-dryrun.json
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
 *.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# KiCad
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.kicad_pcb.kicad_pcb
+fp-info-cache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+
+# Build outputs
+*.bin
+*.elf
+*.hex
+
+# Logs
+logs/
+*.log
+
+# Config
+config.local.json
+.env.local
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
