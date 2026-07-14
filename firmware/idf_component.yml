@@ -1,0 +1,6 @@
+version: "0.1.0"
+description: "TSX-Link - Open Source gateway for Schneider TSX3721001 PLC"
+maintainers:
+  - kevin03l
+dependencies:
+  esp-idf: ">=5.0"
